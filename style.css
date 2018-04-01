@@ -1,0 +1,75 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+  width: 100%;
+  text-align: center;
+}
+
+.main {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  background: #ccc;
+  min-width: 32px;
+  min-height: 32px;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+}
+
+img {
+  max-width: 400px;
+  max-height: 200px;
+}
+
+.container {
+  flex: 1;
+  margin-left: 8px;
+  background: #fff;
+  padding: 8px;
+}
+
+.timestamp a {
+  text-decoration: none;
+  font-size: 10px;
+  margin-top: 8px;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: right;
+  display: block;
+}
+
+.content {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.me .avatar {
+  background-image: url('me.jpg');
+  background-size: cover;
+}
+
+.wxid_hnkqnqrrahs122 .avatar {
+  background-image: url('sharon.jpg');
+  background-size: cover;
+}
+
+.wxid_hnkqnqrrahs122 .container {
+  background: #9eea6a;
+}
+
+audio {
+  margin-top: 8px;
+}
